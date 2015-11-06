@@ -1,0 +1,130 @@
+﻿<Window x:Class="MediaPlayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Background="LightGray" WindowStartupLocation="CenterScreen" Title="MainWindow" Height="600" Width="900">
+    <Window.Resources>
+        <RoutedUICommand x:Key="New" Text="New" />
+        <RoutedUICommand x:Key="Close" Text="Close" />
+        <RoutedUICommand x:Key="Play" Text="Play" />
+        <RoutedUICommand x:Key="FastForward" Text="FastForward" />
+        <RoutedUICommand x:Key="Rewind" Text="Rewind" />
+    </Window.Resources>
+    <Window.CommandBindings>
+        <CommandBinding Command="{StaticResource New}" Executed="NewCMD" />
+        <CommandBinding Command="{StaticResource Close}" Executed="CloseCMD" />
+        <CommandBinding Command="{StaticResource Play}" Executed="PlayCMD" />
+        <CommandBinding Command="{StaticResource FastForward}" Executed="FFCMD" />
+        <CommandBinding Command="{StaticResource Rewind}" Executed="RWCMD" />
+    </Window.CommandBindings>
+    <Window.InputBindings>
+        <KeyBinding Key="N" Modifiers="Control" Command="{StaticResource New}"/>
+        <KeyBinding Key="F4" Modifiers="Alt" Command="{StaticResource Close}"/>
+        <KeyBinding Key="Up" Command="{StaticResource Play}"/>
+        <KeyBinding Key="Right" Command="{StaticResource FastForward}"/>
+        <KeyBinding Key="Left" Command="{StaticResource Rewind}"/>
+    </Window.InputBindings>
+    <DockPanel Height="570" Margin="0,0,-0.4,-19.6" VerticalAlignment="Top">
+
+        <Menu Name="menu" DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+                <MenuItem Header="_New" Click="New"/>
+                <MenuItem Header="_Close" Click="Close"/>
+            </MenuItem>
+            <MenuItem Header="_Controls">
+                <MenuItem Name="PPlay" Header="_Play" Click="PlayPause"/>
+            </MenuItem>
+        </Menu>
+        <Canvas Name="Canvas1" DockPanel.Dock="Left" Width="891" Margin="0,0.4,0,-0.4">
+            <Canvas.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0.763"/>
+                    <GradientStop Color="#FFFF5500"/>
+                </LinearGradientBrush>
+            </Canvas.Background>
+            <Button Name="PlayButton" Canvas.Left="398" Focusable="True" Canvas.Top="420" Width="100" Height="100" Click="PlayPause" Background="Transparent">
+                <Image Source="play2.png" />
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Name="PauseButton" Canvas.Left="398" Focusable="True" Canvas.Top="420" Width="100" Height="100" Click="PlayPause" Background="Transparent">
+                <Image Source="pause.png" />
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Canvas.Right="295" Focusable="True" Canvas.Top="430" Width="80" Height="80" Click="FastForward" Background="Transparent">
+                <Image Source="/Fast_Forward.png" HorizontalAlignment="Center" Width="80" />
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Canvas.Right="200" Focusable="True" Canvas.Top="445" Width="80" Height="50" Click="Skip" Background="Transparent">
+                <Image Source="/Skip.png" HorizontalAlignment="Center" Width="80" />
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Canvas.Right="100" Focusable="True" Canvas.Top="450" Width="80" Height="40" Click="Stop" Background="Transparent">
+                <Image Source="/Stop.png" HorizontalAlignment="Center" Width="80" />
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Canvas.Right="40" Focusable="True" Canvas.Top="450" Width="80" Height="40" Click="Repeat" Background="Transparent">
+                <Image Source="/repeat2.png" HorizontalAlignment="Center" Width="80" />
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Canvas.Left="295" Focusable="True" Canvas.Top="430" Width="80" Height="80" Click="Rewind" Background="Transparent">
+                <Image Source="/Rewind.png" HorizontalAlignment="Center" Width="80" />
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Canvas.Left="200" Focusable="True" Canvas.Top="445" Width="80" Height="50" Click="Previous" Background="Transparent">
+                <Image Source="/Previous.png" HorizontalAlignment="Center" Width="80" />
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Name="VolumeButtonOn" Canvas.Left="5" Focusable="True" Canvas.Top="455" Width="80" Height="30" Click="Volume" Background="Transparent">
+                <Image Source="/Volume.png" HorizontalAlignment="Center"/>
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Name="VolumeButtonOff" Canvas.Left="5" Focusable="True" Canvas.Top="455" Width="80" Height="30" Click="Volume" Background="Transparent">
+                <Image Source="/Volumeoff.png" HorizontalAlignment="Center"/>
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Slider Name="VolumeSlider" Canvas.Left="70" Canvas.Top="460" Width="100" ValueChanged="VolumeSlider_ValueChanged"/>
+            <Slider Name="TimeSlider" Canvas.Left="100" Canvas.Top="377" Width="690" ValueChanged="TimeSlider_ValueChanged"/>
+            <Label Name="CurrentTime" Content="0:00" Foreground="#FFFF5500" FontSize="20" Canvas.Right="795" Canvas.Top="366"/>
+            <Label Name="TotalTime" Content="10:00" Foreground="#FFFF5500" FontSize="20" Canvas.Left="792" Canvas.Top="366"/>
+        </Canvas>
+    </DockPanel>
+</Window>
