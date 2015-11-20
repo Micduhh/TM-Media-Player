@@ -1,0 +1,164 @@
+c:\users\adam\documents\visual studio 2013\Projects\MediaPlayer\bin\Debug\MediaPlayer.exe.config
+c:\users\adam\documents\visual studio 2013\Projects\MediaPlayer\bin\Debug\MediaPlayer.exe
+c:\users\adam\documents\visual studio 2013\Projects\MediaPlayer\bin\Debug\MediaPlayer.pdb
+c:\users\adam\documents\visual studio 2013\Projects\MediaPlayer\obj\Debug\MainWindow.baml
+c:\users\adam\documents\visual studio 2013\Projects\MediaPlayer\obj\Debug\MainWindow.g.cs
+c:\users\adam\documents\visual studio 2013\Projects\MediaPlayer\obj\Debug\App.g.cs
+c:\users\adam\documents\visual studio 2013\Projects\MediaPlayer\obj\Debug\MediaPlayer_MarkupCompile.cache
+c:\users\adam\documents\visual studio 2013\Projects\MediaPlayer\obj\Debug\MediaPlayer.g.resources
+c:\users\adam\documents\visual studio 2013\Projects\MediaPlayer\obj\Debug\MediaPlayer.Properties.Resources.resources
+c:\users\adam\documents\visual studio 2013\Projects\MediaPlayer\obj\Debug\MediaPlayer.csproj.GenerateResource.Cache
+c:\users\adam\documents\visual studio 2013\Projects\MediaPlayer\obj\Debug\MediaPlayer.exe
+c:\users\adam\documents\visual studio 2013\Projects\MediaPlayer\obj\Debug\MediaPlayer.pdb
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\MediaPlayer\bin\Debug\MediaPlayer.exe.config
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\MediaPlayer\bin\Debug\MediaPlayer.exe
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\MediaPlayer\bin\Debug\MediaPlayer.pdb
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\MediaPlayer\obj\Debug\MainWindow.baml
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\MediaPlayer\obj\Debug\MainWindow.g.cs
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\MediaPlayer\obj\Debug\App.g.cs
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\MediaPlayer\obj\Debug\MediaPlayer_MarkupCompile.cache
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\MediaPlayer\obj\Debug\MediaPlayer.g.resources
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\MediaPlayer\obj\Debug\MediaPlayer.Properties.Resources.resources
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\MediaPlayer\obj\Debug\MediaPlayer.csproj.GenerateResource.Cache
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\MediaPlayer\obj\Debug\MediaPlayer.exe
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\MediaPlayer\obj\Debug\MediaPlayer.pdb
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\MediaPlayer\obj\Debug\MediaPlayer.csprojResolveAssemblyReference.cache
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\MediaPlayer\obj\Debug\MediaPlayer.csprojResolveAssemblyReference.cache
+C:\Users\micah\Desktop\documents-export-2015-11-02\bin\Debug\MediaPlayer.exe.config
+C:\Users\micah\Desktop\documents-export-2015-11-02\obj\Debug\MediaPlayer.exe
+C:\Users\micah\Desktop\documents-export-2015-11-02\obj\Debug\MediaPlayer.pdb
+C:\Users\micah\Desktop\documents-export-2015-11-02\obj\Debug\MediaPlayer.csprojResolveAssemblyReference.cache
+C:\Users\micah\Desktop\documents-export-2015-11-02\obj\Debug\MainWindow.baml
+C:\Users\micah\Desktop\documents-export-2015-11-02\obj\Debug\MainWindow.g.cs
+C:\Users\micah\Desktop\documents-export-2015-11-02\obj\Debug\App.g.cs
+C:\Users\micah\Desktop\documents-export-2015-11-02\obj\Debug\MediaPlayer_MarkupCompile.cache
+C:\Users\micah\Desktop\documents-export-2015-11-02\obj\Debug\MediaPlayer.g.resources
+C:\Users\micah\Desktop\documents-export-2015-11-02\obj\Debug\MediaPlayer.Properties.Resources.resources
+C:\Users\micah\Desktop\documents-export-2015-11-02\obj\Debug\MediaPlayer.csproj.GenerateResource.Cache
+C:\Users\micah\Desktop\documents-export-2015-11-02\bin\Debug\MediaPlayer.exe
+C:\Users\micah\Desktop\documents-export-2015-11-02\bin\Debug\MediaPlayer.pdb
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayer\bin\Debug\MediaPlayer.exe.config
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayer\bin\Debug\MediaPlayer.exe
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayer\bin\Debug\MediaPlayer.pdb
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayer\obj\Debug\MainWindow.baml
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayer\obj\Debug\MainWindow.g.cs
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayer\obj\Debug\App.g.cs
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayer\obj\Debug\MediaPlayer_Content.g.cs
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayer\obj\Debug\MediaPlayer_MarkupCompile.cache
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayer\obj\Debug\MediaPlayer.g.resources
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayer\obj\Debug\MediaPlayer.Properties.Resources.resources
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayer\obj\Debug\MediaPlayer.csproj.GenerateResource.Cache
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayer\obj\Debug\MediaPlayer.exe
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayer\obj\Debug\MediaPlayer.pdb
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayer\obj\Debug\MediaPlayer.csprojResolveAssemblyReference.cache
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayerNov13\bin\Debug\MediaPlayer.exe.config
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayerNov13\obj\Debug\MediaPlayer.exe
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayerNov13\obj\Debug\MediaPlayer.pdb
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayerNov13\bin\Debug\MediaPlayer.exe
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayerNov13\bin\Debug\MediaPlayer.pdb
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayerNov13\obj\Debug\MediaPlayer.csprojResolveAssemblyReference.cache
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayerNov13\obj\Debug\MainWindow.baml
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayerNov13\obj\Debug\MainWindow.g.cs
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayerNov13\obj\Debug\App.g.cs
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayerNov13\obj\Debug\MediaPlayer_Content.g.cs
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayerNov13\obj\Debug\MediaPlayer_MarkupCompile.cache
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayerNov13\obj\Debug\MediaPlayer.g.resources
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayerNov13\obj\Debug\MediaPlayer.Properties.Resources.resources
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMMediaPlayerNov13\obj\Debug\MediaPlayer.csproj.GenerateResource.Cache
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov13\bin\Debug\MediaPlayer.exe.config
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov13\bin\Debug\MediaPlayer.exe
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov13\bin\Debug\MediaPlayer.pdb
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov13\obj\Debug\MainWindow.baml
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov13\obj\Debug\MainWindow.g.cs
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov13\obj\Debug\App.g.cs
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov13\obj\Debug\MediaPlayer_Content.g.cs
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov13\obj\Debug\MediaPlayer_MarkupCompile.cache
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov13\obj\Debug\MediaPlayer.g.resources
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov13\obj\Debug\MediaPlayer.Properties.Resources.resources
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov13\obj\Debug\MediaPlayer.csproj.GenerateResource.Cache
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov13\obj\Debug\MediaPlayer.exe
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov13\obj\Debug\MediaPlayer.pdb
+C:\Users\Adam\Google Drive\Emily\TMVideoPlayerNov13\bin\Debug\MediaPlayer.exe.config
+C:\Users\Adam\Google Drive\Emily\TMVideoPlayerNov13\bin\Debug\MediaPlayer.exe
+C:\Users\Adam\Google Drive\Emily\TMVideoPlayerNov13\bin\Debug\MediaPlayer.pdb
+C:\Users\Adam\Google Drive\Emily\TMVideoPlayerNov13\obj\Debug\MainWindow.baml
+C:\Users\Adam\Google Drive\Emily\TMVideoPlayerNov13\obj\Debug\MainWindow.g.cs
+C:\Users\Adam\Google Drive\Emily\TMVideoPlayerNov13\obj\Debug\App.g.cs
+C:\Users\Adam\Google Drive\Emily\TMVideoPlayerNov13\obj\Debug\MediaPlayer_Content.g.cs
+C:\Users\Adam\Google Drive\Emily\TMVideoPlayerNov13\obj\Debug\MediaPlayer_MarkupCompile.cache
+C:\Users\Adam\Google Drive\Emily\TMVideoPlayerNov13\obj\Debug\MediaPlayer.g.resources
+C:\Users\Adam\Google Drive\Emily\TMVideoPlayerNov13\obj\Debug\MediaPlayer.Properties.Resources.resources
+C:\Users\Adam\Google Drive\Emily\TMVideoPlayerNov13\obj\Debug\MediaPlayer.csproj.GenerateResource.Cache
+C:\Users\Adam\Google Drive\Emily\TMVideoPlayerNov13\obj\Debug\MediaPlayer.exe
+C:\Users\Adam\Google Drive\Emily\TMVideoPlayerNov13\obj\Debug\MediaPlayer.pdb
+C:\Users\Adam\Google Drive\Emily\TMVideoPlayerNov13\obj\Debug\MediaPlayer.csprojResolveAssemblyReference.cache
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov16\bin\Debug\MediaPlayer.exe.config
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov16\obj\Debug\MediaPlayer.exe
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov16\obj\Debug\MediaPlayer.pdb
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov16\obj\Debug\MediaPlayer.csprojResolveAssemblyReference.cache
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov16\obj\Debug\MainWindow.baml
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov16\obj\Debug\MainWindow.g.cs
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov16\obj\Debug\App.g.cs
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov16\obj\Debug\MediaPlayer_Content.g.cs
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov16\obj\Debug\MediaPlayer_MarkupCompile.cache
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov16\obj\Debug\MediaPlayer.g.resources
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov16\obj\Debug\MediaPlayer.Properties.Resources.resources
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov16\obj\Debug\MediaPlayer.csproj.GenerateResource.Cache
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov16\bin\Debug\MediaPlayer.exe
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov16\bin\Debug\MediaPlayer.pdb
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov16\bin\Debug\MediaPlayer.exe.config
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov16\obj\Debug\MediaPlayer.exe
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov16\obj\Debug\MediaPlayer.pdb
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov16\bin\Debug\MediaPlayer.exe
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov16\bin\Debug\MediaPlayer.pdb
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov16\obj\Debug\MediaPlayer.csprojResolveAssemblyReference.cache
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov16\obj\Debug\MainWindow.baml
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov16\obj\Debug\MainWindow.g.cs
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov16\obj\Debug\App.g.cs
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov16\obj\Debug\MediaPlayer_Content.g.cs
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov16\obj\Debug\MediaPlayer_MarkupCompile.cache
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov16\obj\Debug\MediaPlayer.g.resources
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov16\obj\Debug\MediaPlayer.Properties.Resources.resources
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov16\obj\Debug\MediaPlayer.csproj.GenerateResource.Cache
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov18\bin\Debug\MediaPlayer.exe.config
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov18\obj\Debug\MediaPlayer.exe
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov18\obj\Debug\MediaPlayer.pdb
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov18\bin\Debug\MediaPlayer.exe
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov18\bin\Debug\MediaPlayer.pdb
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov18\obj\Debug\MediaPlayer.csprojResolveAssemblyReference.cache
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov18\obj\Debug\MainWindow.baml
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov18\obj\Debug\MainWindow.g.cs
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov18\obj\Debug\App.g.cs
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov18\obj\Debug\MediaPlayer_Content.g.cs
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov18\obj\Debug\MediaPlayer_MarkupCompile.cache
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov18\obj\Debug\MediaPlayer.g.resources
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov18\obj\Debug\MediaPlayer.Properties.Resources.resources
+C:\Users\Adam\Documents\Visual Studio 2013\Projects\TMVideoPlayerNov18\obj\Debug\MediaPlayer.csproj.GenerateResource.Cache
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov19\bin\Debug\MediaPlayer.exe.config
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov19\obj\Debug\MediaPlayer.exe
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov19\obj\Debug\MediaPlayer.pdb
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov19\bin\Debug\MediaPlayer.exe
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov19\bin\Debug\MediaPlayer.pdb
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov19\obj\Debug\MediaPlayer.csprojResolveAssemblyReference.cache
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov19\obj\Debug\MainWindow.baml
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov19\obj\Debug\MainWindow.g.cs
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov19\obj\Debug\App.g.cs
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov19\obj\Debug\MediaPlayer_Content.g.cs
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov19\obj\Debug\MediaPlayer_MarkupCompile.cache
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov19\obj\Debug\MediaPlayer.g.resources
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov19\obj\Debug\MediaPlayer.Properties.Resources.resources
+C:\Users\Adam\Google Drive\!Software Engineering(Group)\Class_Project\TMVideoPlayerNov19\obj\Debug\MediaPlayer.csproj.GenerateResource.Cache
+C:\Users\micah\Desktop\TMVideoPlayerNov19-2015-11-19\TMVideoPlayerNov19\bin\Debug\MediaPlayer.exe.config
+C:\Users\micah\Desktop\TMVideoPlayerNov19-2015-11-19\TMVideoPlayerNov19\obj\Debug\MediaPlayer.exe
+C:\Users\micah\Desktop\TMVideoPlayerNov19-2015-11-19\TMVideoPlayerNov19\obj\Debug\MediaPlayer.pdb
+C:\Users\micah\Desktop\TMVideoPlayerNov19-2015-11-19\TMVideoPlayerNov19\bin\Debug\MediaPlayer.exe
+C:\Users\micah\Desktop\TMVideoPlayerNov19-2015-11-19\TMVideoPlayerNov19\bin\Debug\MediaPlayer.pdb
+C:\Users\micah\Desktop\TMVideoPlayerNov19-2015-11-19\TMVideoPlayerNov19\obj\Debug\MediaPlayer.csprojResolveAssemblyReference.cache
+C:\Users\micah\Desktop\TMVideoPlayerNov19-2015-11-19\TMVideoPlayerNov19\obj\Debug\MainWindow.baml
+C:\Users\micah\Desktop\TMVideoPlayerNov19-2015-11-19\TMVideoPlayerNov19\obj\Debug\MainWindow.g.cs
+C:\Users\micah\Desktop\TMVideoPlayerNov19-2015-11-19\TMVideoPlayerNov19\obj\Debug\App.g.cs
+C:\Users\micah\Desktop\TMVideoPlayerNov19-2015-11-19\TMVideoPlayerNov19\obj\Debug\MediaPlayer_Content.g.cs
+C:\Users\micah\Desktop\TMVideoPlayerNov19-2015-11-19\TMVideoPlayerNov19\obj\Debug\MediaPlayer_MarkupCompile.cache
+C:\Users\micah\Desktop\TMVideoPlayerNov19-2015-11-19\TMVideoPlayerNov19\obj\Debug\MediaPlayer.g.resources
+C:\Users\micah\Desktop\TMVideoPlayerNov19-2015-11-19\TMVideoPlayerNov19\obj\Debug\MediaPlayer.Properties.Resources.resources
+C:\Users\micah\Desktop\TMVideoPlayerNov19-2015-11-19\TMVideoPlayerNov19\obj\Debug\MediaPlayer.csproj.GenerateResource.Cache
