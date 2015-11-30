@@ -1,0 +1,270 @@
+﻿<Window x:Class="TMMediaPlayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Name="Main" Background="LightGray" MouseMove="MainMouseMove" WindowStartupLocation="CenterScreen" Title="The Fighting Media Player" MinHeight="400" Height="780" MinWidth="1004" Width="1004" Icon="Icons\play2.ico" SizeChanged="WindowSizeChanged">
+    <Window.Resources>
+        <Image x:Key="PlaySource" Source="icons/play2.png" Height="100" Width="100" />
+        <Image x:Key="PlayGray" Source="icons/play2Gray.png" Height="100" Width="100" />
+        <Image x:Key="PlayBlue" Source="icons/play2Blue.png" Height="100" Width="100" />
+        <Image x:Key="PauseSource" Source="icons/Pause.png" Height="100" Width="100" />
+        <Image x:Key="PauseGray" Source="icons/PauseGray.png" Height="100" Width="100" />
+        <Image x:Key="PauseBlue" Source="icons/PauseBlue.png" Height="100" Width="100" />
+        <Image x:Key="RewindSource" Source="icons/Rewind.png" Height="80" Width="80" />
+        <Image x:Key="RewindGray" Source="icons/RewindGray.png" Height="80" Width="80" />
+        <Image x:Key="RewindBlue" Source="icons/RewindBlue.png" Height="80" Width="80" />
+        <Image x:Key="FFSource" Source="icons/Fast_Forward.png" Height="80" Width="80" />
+        <Image x:Key="FFGray" Source="icons/Fast_ForwardGray.png" Height="80" Width="80" />
+        <Image x:Key="FFBlue" Source="icons/Fast_ForwardBlue.png" Height="80" Width="80" />
+        <Image x:Key="PreviousSource" Source="icons/Previous.png" Height="50" Width="80" />
+        <Image x:Key="PreviousGray" Source="icons/PreviousGray.png" Height="50" Width="80" />
+        <Image x:Key="PreviousBlue" Source="icons/PreviousBlue.png" Height="50" Width="80" />
+        <Image x:Key="SkipSource" Source="icons/Skip.png" Height="50" Width="80" />
+        <Image x:Key="SkipGray" Source="icons/SkipGray.png" Height="50" Width="80" />
+        <Image x:Key="SkipBlue" Source="icons/SkipBlue.png" Height="50" Width="80" />
+        <Image x:Key="StopSource" Source="icons/stop.png" Height="40" Width="80" />
+        <Image x:Key="StopGray" Source="icons/stopGray.png" Height="40" Width="80" />
+        <Image x:Key="StopBlue" Source="icons/stopBlue.png" Height="40" Width="80" />
+        <Image x:Key="RepeatSource" Source="icons/repeat2.png" Height="40" Width="80" />
+        <Image x:Key="RepeatGray" Source="icons/repeat2Gray.png" Height="40" Width="80" />
+        <Image x:Key="RepeatBlue" Source="icons/repeat2Blue.png" Height="40" Width="80" />
+        <Image x:Key="VolumeOnBlue" Source="icons/volumeBlue.png" Height="30" Width="80" />
+        <Image x:Key="VolumeOffBlue" Source="icons/volumeoffBlue.png" Height="30" Width="80" />
+        <Image x:Key="VolumeOnSource" Source="icons/volume.png" Height="30" Width="80" />
+        <Image x:Key="VolumeOffSource" Source="icons/volumeoff.png" Height="30" Width="80" />
+        <RoutedUICommand x:Key="New" Text="New" />
+        <RoutedUICommand x:Key="Open" Text="Open" />
+        <RoutedUICommand x:Key="Close" Text="Close" />
+        <RoutedUICommand x:Key="Play" Text="Play" />
+        <RoutedUICommand x:Key="FastForward" Text="FastForward" />
+        <RoutedUICommand x:Key="Skip" Text="Skip" />
+        <RoutedUICommand x:Key="Rewind" Text="Rewind" />
+        <RoutedUICommand x:Key="Previous" Text="Previous" />
+        <RoutedUICommand x:Key="Stop" Text="Stop" />
+        <RoutedUICommand x:Key="Repeat" Text="Repeat" />
+        <RoutedUICommand x:Key="Mute" Text="Mute" />
+        <RoutedUICommand x:Key="VolumeDown" Text="Mute" />
+        <RoutedUICommand x:Key="VolumeUp" Text="Mute" />
+        <RoutedUICommand x:Key="FullScreen" Text="FullScreen" />
+        <RoutedUICommand x:Key="About" Text="About" />
+        <RoutedUICommand x:Key="Video" Text="Video" />
+        <RoutedUICommand x:Key="Color" Text="Color" />
+        <RoutedUICommand x:Key="Refresh" Text="Refresh" />
+    </Window.Resources>
+    <Window.CommandBindings>
+        <CommandBinding Command="{StaticResource New}" Executed="NewCMD" />
+        <CommandBinding Command="{StaticResource Open}" Executed="OpenCMD" />
+        <CommandBinding Command="{StaticResource Close}" Executed="CloseCMD" />
+        <CommandBinding Command="{StaticResource Play}" Executed="PlayCMD" />
+        <CommandBinding Command="{StaticResource FastForward}" Executed="FFCMD" />
+        <CommandBinding Command="{StaticResource Skip}" Executed="SkipCMD" />
+        <CommandBinding Command="{StaticResource Rewind}" Executed="RWCMD" />
+        <CommandBinding Command="{StaticResource Previous}" Executed="PreviousCMD" />
+        <CommandBinding Command="{StaticResource Stop}" Executed="StopCMD" />
+        <CommandBinding Command="{StaticResource Repeat}" Executed="RepeatCMD" />
+        <CommandBinding Command="{StaticResource Mute}" Executed="VolumeOnOffCMD" />
+        <CommandBinding Command="{StaticResource VolumeDown}" Executed="VolumeDownCMD" />
+        <CommandBinding Command="{StaticResource VolumeUp}" Executed="VolumeUpCMD" />
+        <CommandBinding Command="{StaticResource FullScreen}" Executed="FullScreenCMD" />
+        <CommandBinding Command="{StaticResource About}" Executed="AboutCMD" />
+        <CommandBinding Command="{StaticResource Video}" Executed="ShowVideoCMD" />
+        <CommandBinding Command="{StaticResource Color}" Executed="ColorCMD" />
+        <CommandBinding Command="{StaticResource Refresh}" Executed="RefreshCMD" />
+    </Window.CommandBindings>
+    <Window.InputBindings>
+        <KeyBinding Key="N" Modifiers="Control" Command="{StaticResource New}"/>
+        <KeyBinding Key="O" Modifiers="Control" Command="{StaticResource Open}"/>
+        <KeyBinding Key="F4" Modifiers="Alt" Command="{StaticResource Close}"/>
+        <KeyBinding Key="P" Modifiers="Control" Command="{StaticResource Play}"/>
+        <KeyBinding Key="F" Modifiers="Control" Command="{StaticResource FastForward}"/>
+        <KeyBinding Key="Right" Modifiers="Control" Command="{StaticResource Skip}"/>
+        <KeyBinding Key="R" Modifiers="Control" Command="{StaticResource Rewind}"/>
+        <KeyBinding Key="Left" Modifiers="Control" Command="{StaticResource Previous}"/>
+        <KeyBinding Key="S" Modifiers="Control" Command="{StaticResource Stop}"/>
+        <KeyBinding Key="Q" Modifiers="Control" Command="{StaticResource Repeat}"/>
+        <KeyBinding Key="F10" Command="{StaticResource Mute}"/>
+        <KeyBinding Key="F11" Command="{StaticResource VolumeDown}"/>
+        <KeyBinding Key="F12" Command="{StaticResource VolumeUp}"/>
+        <KeyBinding Key="Enter" Modifiers="Alt" Command="{StaticResource FullScreen}"/>
+        <KeyBinding Key="H" Modifiers="Control" Command="{StaticResource About}"/>
+        <KeyBinding Key="W" Modifiers="Control" Command="{StaticResource Video}"/>
+        <KeyBinding Key="C" Modifiers="Control" Command="{StaticResource Color}"/>
+        <KeyBinding Key="F5" Command="{StaticResource Refresh}"/>
+    </Window.InputBindings>
+    <DockPanel Name="Dock" Height="760" Width="990" VerticalAlignment="Top">
+        <Menu Name="menu" DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+                <MenuItem Header="_New" Click="New"/>
+                <MenuItem Header="_Open" Click="Open"/>
+                <MenuItem Header="_Refresh" Click="Refresh"/>
+                <MenuItem Header="_Close" Click="Close"/>
+            </MenuItem>
+            <MenuItem Header="_Controls">
+                <MenuItem Name="MPlay" Header="_Play" Click="PlayPause"/>
+                <MenuItem Name="MStop" Header="_Stop" Click="Stop"/>
+                <MenuItem Name="MSkip" Header="S_kip" Click="Skip"/>
+                <MenuItem Name="MPrevious" Header="Pre_vious" Click="Previous"/>
+                <MenuItem Name="MMute" Header="_Mute" Click="VolumeOnOff"/>
+                <MenuItem Name="MRepeat" Header="_Repeat" Click="Repeat"/>
+            </MenuItem>
+            <MenuItem Header="_Help">
+                <MenuItem Name="MAbout" Header="_About" Click="About"/>
+                <MenuItem Name="MFullScreen" Header="_Full Screen" Click="FullScreen"/>
+                <MenuItem Name="MShowVideoWindow" Header="Hide _Video" Click="ShowVideo"/>
+                <MenuItem Name="MChangeColor" Header="Toggle Color" Click="Color"/>
+            </MenuItem>
+        </Menu>
+        <Canvas Name="Canvas1" DockPanel.Dock="Left" Height="740" Width="990">
+            <Canvas.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0.85"/>
+                    <GradientStop Color="OrangeRed"/>
+                </LinearGradientBrush>
+            </Canvas.Background>
+            <Label Name="SongNameBlack" FontWeight="ExtraBold" Width="225" Background="Transparent" Foreground="Black" Content="" FontSize="20" Canvas.Left="11" Canvas.Top="10"/>
+            <Button Name="AddButton" Content="Add >>" Background="Transparent" FontSize="15" FontWeight="Bold" Canvas.Left="545" Canvas.Top="145" Height="25" Width="100" Click="AddToPlaylist"/>
+            <Button Name="RemoveButton" Content="Remove" Background="Transparent" FontSize="15" FontWeight="Bold" Canvas.Left="545" Canvas.Top="175" Height="25" Width="100" Click="RemoveFromPlaylist"/>
+            <ListBox Name="Listbox2"  Height="495" FontSize="20" Canvas.Right="15" Canvas.Top="60" Width="315" Background="Black" Foreground="OrangeRed" PreviewMouseDoubleClick="Listbox2DoubleClick" PreviewKeyDown="Listbox2KeyDown" GotFocus="Listbox2GotFocus"/>
+            <ListBox Name="Listbox1" Height="495" FontSize="20" Canvas.Left="15" Canvas.Top="60" Width="515" Background="Black" Foreground="OrangeRed" PreviewMouseDoubleClick="Listbox1DoubleClick" PreviewKeyDown="Listbox1KeyDown" GotFocus="Listbox1GotFocus"/>
+            <Label Name="Search" Height="40" Background="Transparent" FontWeight="Bold" FontSize="20" Canvas.Left="245" Content="Search: " Canvas.Top="10"/>
+            <TextBox Name="SearchBox" Height="30" Background="Black" Foreground="OrangeRed" FontWeight="Bold" FontSize="20" Canvas.Left="330" TextWrapping="Wrap" Text="" Canvas.Top="15" Width="200" TextChanged="SearchBoxChanged" PreviewKeyDown="SearchBoxKeyDown"/>
+            <ComboBox Name="Combobox1" FontSize="16" Canvas.Right="15" Canvas.Top="15" Height="30" Width="200" SelectionChanged="Combobox1SelectionChanged"/>
+            <Rectangle Name="MediaBacking" Fill="Black" Height="540" Width="960" Canvas.Left="15" Canvas.Top="15" Stroke="Black" Visibility="Hidden"/>
+            <MediaElement Name="Player" Height="540" Width="960" Canvas.Left="15" Canvas.Top="15" Visibility="Hidden" MouseDown="PlayerClick"/>
+            <Button Name="PlayButton" Canvas.Left="447" Focusable="True" Canvas.Top="603" Width="100" Height="100" Click="PlayPause" Background="Transparent">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+                <Image Source="icons/play2.png" />
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Name="PauseButton" Canvas.Left="447" Focusable="True" Canvas.Top="603" Width="100" Height="100" Click="PlayPause" Background="Transparent">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+                <Image Source="icons/pause.png" />
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Name="FastForwardButton" Canvas.Right="337" Focusable="True" Canvas.Top="613" Width="80" Height="80" Click="FastForward" Background="Transparent">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+                <Image Source="icons/Fast_Forward.png" HorizontalAlignment="Center" Width="80" />
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Name="SkipButton" Canvas.Right="232" Focusable="True" Canvas.Top="628" Width="80" Height="50" Click="Skip" Background="Transparent">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+                <Image Source="icons/Skip.png" HorizontalAlignment="Center" Width="80" />
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Name="StopButton" Canvas.Right="110" Focusable="True" Canvas.Top="633" Width="80" Height="40" Click="Stop" Background="Transparent">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+                <Image Source="icons/Stop.png" HorizontalAlignment="Center" Width="80" />
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Name="RepeatButton" Canvas.Right="54" Focusable="True" Canvas.Top="633" Width="80" Height="40" Click="Repeat" Background="Transparent">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+                <Image Source="icons/repeat2Gray.png" HorizontalAlignment="Center" Width="80" />
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Name="RewindButton" Canvas.Left="337" Focusable="True" Canvas.Top="613" Width="80" Height="80" Click="Rewind" Background="Transparent">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+                <Image Source="icons/Rewind.png" HorizontalAlignment="Center" Width="80" />
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Name="PreviousButton" Canvas.Left="232" Focusable="True" Canvas.Top="628" Width="80" Height="50" Click="Previous" Background="Transparent">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+                <Image Source="icons/Previous.png" HorizontalAlignment="Center" Width="80" />
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Name="VolumeButtonOn" Canvas.Left="22" Focusable="True" Canvas.Top="638" Width="80" Height="30" Click="VolumeOnOff" Background="Transparent">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+                <Image Source="icons/Volume.png" HorizontalAlignment="Center"/>
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button Name="VolumeButtonOff" Canvas.Left="22" Focusable="True" Canvas.Top="638" Width="80" Height="30" Click="VolumeOnOff" Background="Transparent">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+                <Image Source="icons/Volumeoff.png" HorizontalAlignment="Center"/>
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Slider Name="VolumeSlider" Canvas.Left="88" Canvas.Top="643" Width="100" ValueChanged="SetVolume">
+                <Slider.Effect>
+                    <DropShadowEffect BlurRadius="3"/>
+                </Slider.Effect>
+            </Slider>
+            <Slider Name="TimeSlider" Canvas.Left="95" Canvas.Top="570" Width="800" ValueChanged="SetTime">
+                <Slider.Effect>
+                    <DropShadowEffect BlurRadius="3"/>
+                </Slider.Effect>
+            </Slider>
+            <Label Name="CurrentTime"  Content="0:00" Foreground="OrangeRed" FontSize="20" Canvas.Right="910" Canvas.Top="559">
+                <Label.Effect>
+                    <DropShadowEffect/>
+                </Label.Effect>
+            </Label>
+            <Label Name="TotalTime" Content="10:00" Foreground="OrangeRed" FontSize="20" Canvas.Left="910" Canvas.Top="559">
+                <Label.Effect>
+                    <DropShadowEffect/>
+                </Label.Effect>
+            </Label>
+            <Label Name="SongName" FontWeight="ExtraBold" Width="202" Background="Transparent" Foreground="OrangeRed" Content="22" FontSize="20" Canvas.Left="19" Canvas.Top="12" Visibility="Hidden">
+                <Label.Effect>
+                    <DropShadowEffect BlurRadius="0"/>
+                </Label.Effect>
+            </Label>
+        </Canvas>
+    </DockPanel>
+</Window>
