@@ -1,0 +1,15 @@
+c:\users\adam\documents\visual studio 2013\Projects\TigerMillionaireMediaPlayer\TigerMillionaireMediaPlayer\bin\Debug\TigerMillionaireMediaPlayer.exe.config
+c:\users\adam\documents\visual studio 2013\Projects\TigerMillionaireMediaPlayer\TigerMillionaireMediaPlayer\bin\Debug\TigerMillionaireMediaPlayer.exe
+c:\users\adam\documents\visual studio 2013\Projects\TigerMillionaireMediaPlayer\TigerMillionaireMediaPlayer\bin\Debug\TigerMillionaireMediaPlayer.pdb
+c:\users\adam\documents\visual studio 2013\Projects\TigerMillionaireMediaPlayer\TigerMillionaireMediaPlayer\bin\Debug\System.Data.SQLite.dll
+c:\users\adam\documents\visual studio 2013\Projects\TigerMillionaireMediaPlayer\TigerMillionaireMediaPlayer\obj\Debug\TigerMillionaireMediaPlayer.csprojResolveAssemblyReference.cache
+c:\users\adam\documents\visual studio 2013\Projects\TigerMillionaireMediaPlayer\TigerMillionaireMediaPlayer\obj\Debug\MainWindow.baml
+c:\users\adam\documents\visual studio 2013\Projects\TigerMillionaireMediaPlayer\TigerMillionaireMediaPlayer\obj\Debug\MainWindow.g.cs
+c:\users\adam\documents\visual studio 2013\Projects\TigerMillionaireMediaPlayer\TigerMillionaireMediaPlayer\obj\Debug\App.g.cs
+c:\users\adam\documents\visual studio 2013\Projects\TigerMillionaireMediaPlayer\TigerMillionaireMediaPlayer\obj\Debug\TigerMillionaireMediaPlayer_Content.g.cs
+c:\users\adam\documents\visual studio 2013\Projects\TigerMillionaireMediaPlayer\TigerMillionaireMediaPlayer\obj\Debug\TigerMillionaireMediaPlayer_MarkupCompile.cache
+c:\users\adam\documents\visual studio 2013\Projects\TigerMillionaireMediaPlayer\TigerMillionaireMediaPlayer\obj\Debug\TigerMillionaireMediaPlayer.g.resources
+c:\users\adam\documents\visual studio 2013\Projects\TigerMillionaireMediaPlayer\TigerMillionaireMediaPlayer\obj\Debug\TigerMillionaireMediaPlayer.Properties.Resources.resources
+c:\users\adam\documents\visual studio 2013\Projects\TigerMillionaireMediaPlayer\TigerMillionaireMediaPlayer\obj\Debug\TigerMillionaireMediaPlayer.csproj.GenerateResource.Cache
+c:\users\adam\documents\visual studio 2013\Projects\TigerMillionaireMediaPlayer\TigerMillionaireMediaPlayer\obj\Debug\TigerMillionaireMediaPlayer.exe
+c:\users\adam\documents\visual studio 2013\Projects\TigerMillionaireMediaPlayer\TigerMillionaireMediaPlayer\obj\Debug\TigerMillionaireMediaPlayer.pdb
